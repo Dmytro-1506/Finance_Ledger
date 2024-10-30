@@ -50,7 +50,8 @@ button {
 }
 
 .header {
-  position: fixed;
+  position: absolute;
+  margin: 0 auto;
   width: 1360px;
   display: flex;
   color: #ffffff;
@@ -75,7 +76,10 @@ button {
 }
 
 .hero {
+  margin: 0 auto;
   width: 1360px;
   height: 768px;
   background-image: url(../../images/Hero-x1.jpg);
+  color: #ffffff;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

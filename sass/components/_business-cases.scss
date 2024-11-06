@@ -1,0 +1,24 @@
+.cases-section {
+    width: 1360px;
+    height: 73px;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    padding-left: 28px;padding-right: 28px;
+    text-align: center;
+    
+    .cases-subtitle {
+        padding-bottom: 15px;
+    }
+    .cases-title {
+        padding-bottom: 34px;
+    }
+    .ceses-description {
+        padding-bottom: 39px;
+    }
+    .cases-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        justify-content: center;
+    }
+}

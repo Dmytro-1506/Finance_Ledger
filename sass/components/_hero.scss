@@ -2,7 +2,37 @@
     margin: 0 auto;
     width: 1360px;
     height: 768px;
-    background-image:url(../../images/Hero-x1.jpg);
+    background-image:url(../../images/Hero-desktop-x1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: $bright-text;
     text-align: center;
+    
+    .hero-title-box {
+        padding-top: 279px;
+
+        .hero-title {
+            margin-bottom: 25px;
+            font-weight: 300;
+            font-size: 55px;
+            line-height: 1.2;
+        }
+        .hero-description {
+            margin-bottom: 29px;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 1.67;
+        }
+        .hero-button {
+            width: 165px;
+            height: 48px;
+            background-color: $accent-color-green;
+            border-radius: 5px;
+            color: $bright-text;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
 }

@@ -1,14 +1,22 @@
 .header {
     position: absolute;
-    margin: 0 auto;
-    width: 1360px;
-    display: flex;
-    color: $bright-text;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
+    width: 100%;
+
+    .header-box {
+        max-width: 1360px;
+        margin: 0 auto;
+        display: flex;
+        color: $bright-text;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
     .company-name {
         display: flex;
+        margin-left: 50px;
+    }
+    .logo {
+        margin-right: 10px;
     }
     .name {
         align-content: center;
@@ -19,7 +27,14 @@
             color: $accent-color-green;
         }
     }
+    .navigation-box {
+        margin-right: 46px;
+        margin-top: 21px;
+    }
     .nav-link {
-        margin-right: 10px;
+        margin-right: 38px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
     }
 }

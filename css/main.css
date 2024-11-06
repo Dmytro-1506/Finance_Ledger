@@ -52,8 +52,11 @@ section {
 
 .header {
   position: absolute;
+  width: 100%;
+}
+.header .header-box {
+  max-width: 1360px;
   margin: 0 auto;
-  width: 1360px;
   display: flex;
   color: #ffffff;
   justify-content: space-between;
@@ -62,6 +65,10 @@ section {
 }
 .header .company-name {
   display: flex;
+  margin-left: 50px;
+}
+.header .logo {
+  margin-right: 10px;
 }
 .header .name {
   align-content: center;
@@ -72,17 +79,52 @@ section {
 .header .name .accent-title {
   color: #28A745;
 }
+.header .navigation-box {
+  margin-right: 46px;
+  margin-top: 21px;
+}
 .header .nav-link {
-  margin-right: 10px;
+  margin-right: 38px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .hero {
   margin: 0 auto;
   width: 1360px;
   height: 768px;
-  background-image: url(../../images/Hero-x1.jpg);
+  background-image: url(../../images/Hero-desktop-x1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
+}
+.hero .hero-title-box {
+  padding-top: 279px;
+}
+.hero .hero-title-box .hero-title {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+}
+.hero .hero-title-box .hero-description {
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67;
+}
+.hero .hero-title-box .hero-button {
+  width: 165px;
+  height: 48px;
+  background-color: #28A745;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .finance-section {
@@ -143,4 +185,29 @@ section {
   border: 1px solid;
   border-radius: 5px;
   margin-left: 0;
+}
+
+.cases-section {
+  width: 1360px;
+  height: 73px;
+  padding-top: 50px;
+  padding-bottom: 47px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+}
+.cases-section .cases-subtitle {
+  padding-bottom: 15px;
+}
+.cases-section .cases-title {
+  padding-bottom: 34px;
+}
+.cases-section .ceses-description {
+  padding-bottom: 39px;
+}
+.cases-section .cases-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

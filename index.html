@@ -98,8 +98,30 @@
 
       <!-- provide section -->
 
-      <!-- <section class="provide-section">
-        <img class="provide-image" src="./images/Team-desktop-x1.jpg" alt="" />
+      <section class="provide-section">
+        <picture>
+          <source
+            srcset="images/Team-mobile-x1.jpg 1x, images/Team-mobile-x1.jpg 2x"
+            media="(max-width: 768px)"
+          />
+          <source
+            srcset="images/Team-tablet-x1.jpg 1x, images/Team-tablet-x1.jpg 2x"
+            media="(max-width: 1199px)"
+          />
+          <source
+            srcset="
+              images/Team-desktop-x1.jpg 1x,
+              images/Team-desktop-x1.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="provide-image"
+            src="./images/Team-desktop-x1.jpg"
+            alt="workers team"
+          />
+        </picture>
+
         <div class="provide-description">
           <h3 class="provide-subtitle">What you are looking for</h3>
           <h2 class="provide-title">We provide bespoke solutions</h2>
@@ -111,7 +133,7 @@
           </p>
           <button class="provide-button">Read More</button>
         </div>
-      </section> -->
+      </section>
       <!-- Business Cases Section -->
       <!-- <section class="cases-section">
         <div class="cases-description-box">

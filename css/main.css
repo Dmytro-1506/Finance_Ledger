@@ -241,26 +241,41 @@ button {
 }
 
 .cases-section {
-  width: 1360px;
-  height: 73px;
-  padding-top: 50px;
-  padding-bottom: 47px;
+  text-align: center;
+  padding-bottom: 46px;
+}
+.cases-section .cases-description-box {
+  padding: 50px 50px 0 50px;
+}
+.cases-section .cases-description-box .cases-subtitle {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+}
+.cases-section .cases-description-box .cases-title {
+  margin-bottom: 35px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.cases-section .cases-description-box .ceses-description {
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.cases-section .cases-gallery-box {
   padding-left: 28px;
   padding-right: 28px;
-  text-align: center;
-}
-.cases-section .cases-subtitle {
-  padding-bottom: 15px;
-}
-.cases-section .cases-title {
-  padding-bottom: 34px;
-}
-.cases-section .ceses-description {
-  padding-bottom: 39px;
-}
-.cases-section .cases-gallery {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 7px;
-  justify-content: center;
+}
+.cases-section .cases-gallery-box picture {
+  width: 100%;
+}
+.cases-section .cases-gallery-box .cases-image {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

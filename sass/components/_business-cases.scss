@@ -1,24 +1,39 @@
 .cases-section {
-    width: 1360px;
-    height: 73px;
-    padding-top: 50px;
-    padding-bottom: 47px;
-    padding-left: 28px;padding-right: 28px;
     text-align: center;
+    padding-bottom: 46px;
     
-    .cases-subtitle {
-        padding-bottom: 15px;
+    .cases-description-box {
+        padding: 50px 50px 0 50px;
+        .cases-subtitle {
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.66;
+        }
+        .cases-title {
+            margin-bottom: 35px;font-weight: 300;
+            font-size: 38px;
+            line-height: 1.26;
+        }
+        .ceses-description {
+            margin-bottom: 37px;font-weight: 400;
+            font-size: 16px;
+            line-height: 1.6;
+        }
     }
-    .cases-title {
-        padding-bottom: 34px;
-    }
-    .ceses-description {
-        padding-bottom: 39px;
-    }
-    .cases-gallery {
+    .cases-gallery-box {
+        padding-left: 28px;
+        padding-right: 28px;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 7px;
-        justify-content: center;
+
+        picture {
+            width: 100%;
+        }
+        .cases-image {
+            width: 100%;
+        }
     }
 }

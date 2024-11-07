@@ -278,4 +278,47 @@ button {
 }
 .cases-section .cases-gallery-box .cases-image {
   width: 100%;
+}
+
+.blog-picture {
+  width: 100%;
+}
+.blog-picture img {
+  width: 100%;
+}
+
+.blog-description-box {
+  padding: 30px;
+  color: #ffffff;
+  background-color: #0284D0;
+}
+.blog-description-box .blog-date {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+}
+.blog-description-box .blog-title {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.blog-description-box .blog-description-text {
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.blog-description-box .blog-button {
+  width: 184px;
+  height: 47px;
+  margin-left: 0;
+  background-color: #0284D0;
+  border-radius: 5px;
+  border: 1px solid;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }/*# sourceMappingURL=main.css.map */

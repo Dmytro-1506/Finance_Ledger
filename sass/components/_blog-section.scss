@@ -1,0 +1,42 @@
+.blog-picture {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.blog-description-box {
+    padding: 30px;
+    color: $bright-text;
+    background-color: $accent-color-blue;
+    .blog-date {
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.66;
+    }
+    .blog-title {
+        margin-bottom: 25px;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 1.26;
+    }
+    .blog-description-text {
+        margin-bottom: 14px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .blog-button {
+        width: 184px;
+        height: 47px;
+        margin-left: 0;
+        background-color: $accent-color-blue;
+        border-radius: 5px;
+        border: 1px solid;
+        color: $bright-text;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}

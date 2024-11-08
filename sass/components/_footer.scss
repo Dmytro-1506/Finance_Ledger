@@ -1,0 +1,23 @@
+.footer {
+    text-align: center;
+    background-color: $background-color-footer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .fotter-icon-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: 0 auto;
+        width: 216px;
+        height: 35px;
+        .footer-icon-item {
+            display: flex;
+        }
+    }
+    .footer-text {
+        color: $bright-text;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}

@@ -416,4 +416,28 @@ button {
   background-color: #28A745;
   color: #ffffff;
   text-align: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer .fotter-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0 auto;
+  width: 216px;
+  height: 35px;
+}
+.footer .fotter-icon-list .footer-icon-item {
+  display: flex;
+}
+.footer .footer-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }/*# sourceMappingURL=main.css.map */

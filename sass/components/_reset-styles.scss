@@ -2,8 +2,6 @@ body {
     font-family: $font-family;
     font-style: normal;
     background-color: $background-color-one;
-    letter-spacing: 0.03em;
-    font-size: 14px;
     margin: 0 auto;
 }
 
@@ -42,5 +40,5 @@ button {
     font-family: inherit;
     cursor: pointer;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
 }

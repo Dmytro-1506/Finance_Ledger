@@ -1,27 +1,41 @@
 .persons-section {
     padding-top: 50px;
     padding-bottom: 50px;
+    @media screen and (min-width: 768px) {}
     .persons-description-box {
         padding-left: 50px;
         padding-right: 50px;
+        margin-bottom: 37px;
         text-align: center;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 49px;
+        }
         .persons-subtitle {
             margin-bottom: 15px;
             font-weight: 400;
             font-size: 18px;
             line-height: 1.66;
+            @media screen and (min-width: 768px) {
+                margin-bottom: 16px;
+                font-size: 20px;
+            }
         }
         .persons-title {
             margin-bottom: 35px;
             font-weight: 300;
             font-size: 38px;
             line-height: 1.26;
+            @media screen and (min-width: 768px) {
+                margin-bottom: 34px;
+            }
         }
         .persons-description-text {
-            margin-bottom: 37px;
             font-weight: 400;
             font-size: 16px;
             line-height: 1.6;
+            @media screen and (min-width: 768px) {
+                font-size: 17px;
+            }
         }
     }
     .persons-list {
@@ -32,8 +46,15 @@
         flex-wrap: wrap;
         gap: 10px;
         text-align: center;
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            gap: 20px;
+        }
         .person-item {
             width: 100%;
+            @media screen and (min-width: 768px) {
+                width: calc((100% - 20px * 2) / 3);
+            }
             .person-picture {}
             .person-image {
                 width: 100%;
@@ -44,11 +65,19 @@
                 font-weight: 400;
                 font-size: 23px;
                 line-height: 1.26;
+                @media screen and (min-width: 768px) {
+                    margin-top: 14px;
+                    margin-bottom: 12px;
+                    font-size: 25px;
+                }
             }
             .person-position {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 1.6;
+                @media screen and (min-width: 768px) {
+                    font-size: 18px;
+                }
             }
         }
     }

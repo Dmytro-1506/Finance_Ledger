@@ -314,8 +314,6 @@ section {
   .provide-section .provide-description-box {
     width: calc(50vw - 70px);
     padding-right: 40px;
-    display: flex;
-    flex-direction: column;
   }
 }
 .provide-section .provide-description-box .provide-subtitle {
@@ -378,6 +376,8 @@ section {
 }
 .cases-section .cases-description-box {
   padding: 50px 50px 0 50px;
+  margin-bottom: 37px;
+  font-weight: 400;
 }
 .cases-section .cases-description-box .cases-subtitle {
   margin-bottom: 15px;
@@ -397,8 +397,6 @@ section {
   line-height: 1.26;
 }
 .cases-section .cases-description-box .ceses-description {
-  margin-bottom: 37px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -435,37 +433,71 @@ section {
 .cases-section .cases-gallery-box .cases-image {
   width: 100%;
 }
-.blog-picture {
+@media screen and (min-width: 768px) {
+  .blog-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.blog-section .blog-picture {
   width: 100%;
 }
-.blog-picture img {
-  width: 100%;
+@media screen and (min-width: 768px) {
+  .blog-section .blog-picture {
+    width: 50vw;
+  }
 }
-
-.blog-description-box {
+.blog-section .blog-picture img {
+  width: 100%;
+  height: 100%;
+}
+.blog-section .blog-description-box {
   padding: 30px;
   color: #ffffff;
   background-color: #0284D0;
 }
-.blog-description-box .blog-date {
+@media screen and (min-width: 768px) {
+  .blog-section .blog-description-box {
+    width: calc(50vw - 70px);
+    padding: 30px 40px 30px 30px;
+  }
+}
+.blog-section .blog-description-box .blog-date {
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66;
 }
-.blog-description-box .blog-title {
+@media screen and (min-width: 768px) {
+  .blog-section .blog-description-box .blog-date {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+}
+.blog-section .blog-description-box .blog-title {
   margin-bottom: 25px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
-.blog-description-box .blog-description-text {
+@media screen and (min-width: 768px) {
+  .blog-section .blog-description-box .blog-title {
+    margin-bottom: 26px;
+  }
+}
+.blog-section .blog-description-box .blog-description-text {
   margin-bottom: 14px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
-.blog-description-box .blog-button {
+@media screen and (min-width: 768px) {
+  .blog-section .blog-description-box .blog-description-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+.blog-section .blog-description-box .blog-button {
   width: 184px;
   height: 47px;
   margin-left: 0;
@@ -477,6 +509,13 @@ section {
   font-size: 16px;
   line-height: 1.6;
 }
+@media screen and (min-width: 768px) {
+  .blog-section .blog-description-box .blog-button {
+    width: 196px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
 
 .persons-section {
   padding-top: 50px;
@@ -485,7 +524,13 @@ section {
 .persons-section .persons-description-box {
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 37px;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .persons-section .persons-description-box {
+    margin-bottom: 49px;
+  }
 }
 .persons-section .persons-description-box .persons-subtitle {
   margin-bottom: 15px;
@@ -493,17 +538,32 @@ section {
   font-size: 18px;
   line-height: 1.66;
 }
+@media screen and (min-width: 768px) {
+  .persons-section .persons-description-box .persons-subtitle {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+}
 .persons-section .persons-description-box .persons-title {
   margin-bottom: 35px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
+@media screen and (min-width: 768px) {
+  .persons-section .persons-description-box .persons-title {
+    margin-bottom: 34px;
+  }
+}
 .persons-section .persons-description-box .persons-description-text {
-  margin-bottom: 37px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+}
+@media screen and (min-width: 768px) {
+  .persons-section .persons-description-box .persons-description-text {
+    font-size: 17px;
+  }
 }
 .persons-section .persons-list {
   padding-left: 20px;
@@ -514,8 +574,19 @@ section {
   gap: 10px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .persons-section .persons-list {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
 .persons-section .persons-list .person-item {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .persons-section .persons-list .person-item {
+    width: calc((100% - 40px) / 3);
+  }
 }
 .persons-section .persons-list .person-item .person-image {
   width: 100%;
@@ -527,12 +598,29 @@ section {
   font-size: 23px;
   line-height: 1.26;
 }
+@media screen and (min-width: 768px) {
+  .persons-section .persons-list .person-item .person-name {
+    margin-top: 14px;
+    margin-bottom: 12px;
+    font-size: 25px;
+  }
+}
 .persons-section .persons-list .person-item .person-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
+@media screen and (min-width: 768px) {
+  .persons-section .persons-list .person-item .person-position {
+    font-size: 18px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .callrequest-section {
+    display: flex;
+  }
+}
 .callrequest-section .callrequest-image {
   width: 100%;
 }

@@ -1,4 +1,7 @@
 .callrequest-section {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
     .callrequest-picture {}
     .callrequest-image {
         width: 100%;

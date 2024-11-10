@@ -4,8 +4,10 @@
     @media screen and (min-width: 768px) {
         padding: 0;
         }
-    .cases-description-box {
-        padding: 50px 50px 0 50px;
+        .cases-description-box {
+            padding: 50px 50px 0 50px;
+            margin-bottom: 37px;
+            font-weight: 400;
         @media screen and (min-width: 768px) {}
         .cases-subtitle {
             margin-bottom: 15px;
@@ -22,7 +24,6 @@
             line-height: 1.26;
         }
         .ceses-description {
-            margin-bottom: 37px;font-weight: 400;
             font-size: 16px;
             line-height: 1.6;
             @media screen and (min-width: 768px) {

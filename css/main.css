@@ -521,6 +521,12 @@ section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+@media screen and (min-width: 768px) {
+  .persons-section {
+    padding-top: 48px;
+    padding-bottom: 59px;
+  }
+}
 .persons-section .persons-description-box {
   padding-left: 50px;
   padding-right: 50px;
@@ -621,8 +627,18 @@ section {
     display: flex;
   }
 }
-.callrequest-section .callrequest-image {
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-picture {
+    width: 50vw;
+  }
+}
+.callrequest-section .callrequest-picture .callrequest-image {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-picture .callrequest-image {
+    height: 100%;
+  }
 }
 .callrequest-section .callrequest-form {
   padding-top: 26px;
@@ -631,25 +647,40 @@ section {
   padding-bottom: 30px;
   background-color: #F4F4F4;
 }
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-form {
+    width: calc(50vw - 60px);
+  }
+}
 .callrequest-section .callrequest-form .callrequest-title {
+  margin-bottom: 34px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
-.callrequest-section .callrequest-form .callrequest-input {
+.callrequest-section .callrequest-form .request-input-box {
+  margin-bottom: 53px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.callrequest-section .callrequest-form .request-input-box .callrequest-input {
   border: none;
   background-color: #fff;
   width: calc(100% - 6px);
-  margin: 35px 0px 0px 0px;
-  padding: 0px 0px 0px 5px;
+  padding-left: 5px;
   height: 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   color: #808080;
 }
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-form .request-input-box .callrequest-input {
+    font-size: 18px;
+  }
+}
 .callrequest-section .callrequest-form .callrequest-button {
-  margin-top: 53px;
   width: 100%;
   height: 42px;
   border-radius: 5px;
@@ -660,12 +691,22 @@ section {
   color: #ffffff;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-form .callrequest-button {
+    font-size: 18px;
+  }
+}
 
 .footer {
   text-align: center;
   background-color: #333333;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-bottom: 16px;
+  }
 }
 .footer .fotter-icon-list {
   display: flex;
@@ -683,4 +724,9 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+}
+@media screen and (min-width: 768px) {
+  .footer .footer-text {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */

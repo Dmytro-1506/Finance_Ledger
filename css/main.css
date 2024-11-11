@@ -412,17 +412,37 @@ section {
 
 .cases-section {
   text-align: center;
+  padding-top: 50px;
   padding-bottom: 46px;
 }
 @media screen and (min-width: 768px) {
   .cases-section {
-    padding: 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cases-section {
+    padding-top: 50px;
+    padding-bottom: 47px;
   }
 }
 .cases-section .cases-description-box {
-  padding: 50px 50px 0 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-bottom: 37px;
   font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .cases-section .cases-description-box {
+    padding: 0;
+    margin-bottom: 38px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .cases-section .cases-description-box {
+    margin-bottom: 39px;
+  }
 }
 .cases-section .cases-description-box .cases-subtitle {
   margin-bottom: 15px;
@@ -440,6 +460,11 @@ section {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+}
+@media screen and (min-width: 768px) {
+  .cases-section .cases-description-box .cases-title {
+    margin-bottom: 34px;
+  }
 }
 .cases-section .cases-description-box .ceses-description {
   font-size: 16px;
@@ -459,7 +484,6 @@ section {
 }
 @media screen and (min-width: 768px) {
   .cases-section .cases-gallery-box {
-    margin-bottom: 48px;
     width: calc(100vw - 56px);
     height: calc((100vw - 50px) / 3);
     flex-wrap: wrap;
@@ -507,6 +531,12 @@ section {
     padding: 30px 40px 30px 30px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .blog-section .blog-description-box {
+    padding-top: 112px;
+    padding-right: 44px;
+  }
+}
 .blog-section .blog-description-box .blog-date {
   margin-bottom: 5px;
   font-weight: 400;
@@ -517,6 +547,11 @@ section {
   .blog-section .blog-description-box .blog-date {
     margin-bottom: 6px;
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .blog-section .blog-description-box .blog-date {
+    margin-bottom: 5px;
   }
 }
 .blog-section .blog-description-box .blog-title {
@@ -540,6 +575,11 @@ section {
   .blog-section .blog-description-box .blog-description-text {
     margin-bottom: 20px;
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .blog-section .blog-description-box .blog-description-text {
+    margin-bottom: 17px;
   }
 }
 .blog-section .blog-description-box .blog-button {
@@ -572,6 +612,11 @@ section {
     padding-bottom: 59px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .persons-section {
+    padding-top: 49px;
+  }
+}
 .persons-section .persons-description-box {
   padding-left: 50px;
   padding-right: 50px;
@@ -581,6 +626,11 @@ section {
 @media screen and (min-width: 768px) {
   .persons-section .persons-description-box {
     margin-bottom: 49px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .persons-section .persons-description-box {
+    margin-bottom: 45px;
   }
 }
 .persons-section .persons-description-box .persons-subtitle {
@@ -616,6 +666,11 @@ section {
     font-size: 17px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .persons-section .persons-description-box .persons-description-text {
+    font-size: 18px;
+  }
+}
 .persons-section .persons-list {
   padding-left: 20px;
   padding-right: 20px;
@@ -627,8 +682,15 @@ section {
 }
 @media screen and (min-width: 768px) {
   .persons-section .persons-list {
+    padding-left: 30px;
+    padding-right: 30px;
     flex-direction: row;
     gap: 20px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .persons-section .persons-list {
+    gap: 12px;
   }
 }
 .persons-section .persons-list .person-item {
@@ -637,6 +699,11 @@ section {
 @media screen and (min-width: 768px) {
   .persons-section .persons-list .person-item {
     width: calc((100% - 40px) / 3);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .persons-section .persons-list .person-item .person-picture:hover, .persons-section .persons-list .person-item .person-picture:focus {
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 .persons-section .persons-list .person-item .person-image {
@@ -654,6 +721,11 @@ section {
     margin-top: 14px;
     margin-bottom: 12px;
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .persons-section .persons-list .person-item .person-name {
+    margin-top: 13px;
   }
 }
 .persons-section .persons-list .person-item .person-position {

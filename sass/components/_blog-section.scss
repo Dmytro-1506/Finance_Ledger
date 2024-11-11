@@ -23,6 +23,10 @@
             width: calc(50vw - 70px);
             padding: 30px 40px 30px 30px;
         }
+        @media screen and (min-width: 1360px) {
+            padding-top: 112px;
+            padding-right: 44px;
+        }
         .blog-date {
             margin-bottom: 5px;
             font-weight: 400;
@@ -31,6 +35,9 @@
             @media screen and (min-width: 768px) {
                 margin-bottom: 6px;
                 font-size: 20px;
+            }
+            @media screen and (min-width: 1360px) {
+                margin-bottom: 5px;
             }
         }
         .blog-title {
@@ -50,6 +57,9 @@
         @media screen and (min-width: 768px) {
             margin-bottom: 20px;
             font-size: 18px;
+        }
+        @media screen and (min-width: 1360px) {
+            margin-bottom: 17px;
         }
     }
     .blog-button {

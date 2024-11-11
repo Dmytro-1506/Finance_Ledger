@@ -17,8 +17,13 @@
         padding: 30px;
         @media screen and (min-width: 768px) {
                 width: calc(50vw - 70px);
+                height: auto;
                 padding-right: 40px;
             }
+        @media screen and (min-width: 1360px) {
+            padding-top: 84px;
+            padding-right: 44px;
+        }
         .provide-subtitle {
             margin-bottom: 5px;
             font-weight: 400;
@@ -33,6 +38,9 @@
             font-weight: 300;
             font-size: 38px;
             line-height: 1.26;
+            @media screen and (min-width: 768px) {
+                margin-bottom: 26px;
+            }
         }
         .provide-text {
             margin-bottom: 14px;
@@ -42,6 +50,9 @@
             @media screen and (min-width: 768px) {
                 margin-bottom: 20px;
                 font-size: 18px;
+            }
+            @media screen and (min-width: 768px) {
+                margin-bottom: 17px;
             }
         }
     }

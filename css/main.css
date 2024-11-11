@@ -257,11 +257,19 @@ section {
 @media screen and (min-width: 768px) {
   .finance-section .finance-list {
     flex-direction: row;
-    gap: 6.25vw;
+    gap: 49px;
     padding-top: 40px;
     padding-bottom: 47px;
-    padding-left: 6.6666666667vw;
-    padding-right: 6.6666666667vw;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .finance-section .finance-list {
+    padding-bottom: 19px;
+    padding-left: 66px;
+    padding-right: 66px;
+    gap: 71px;
   }
 }
 .finance-section .finance-item {
@@ -282,6 +290,7 @@ section {
   .finance-section .finance_icon-box {
     width: 67px;
     height: 67px;
+    margin-bottom: 15px;
   }
 }
 .finance-section .finance-title {
@@ -292,6 +301,7 @@ section {
 }
 @media screen and (min-width: 768px) {
   .finance-section .finance-title {
+    margin-bottom: 16px;
     font-size: 20px;
   }
 }
@@ -331,7 +341,14 @@ section {
 @media screen and (min-width: 768px) {
   .provide-section .provide-description-box {
     width: calc(50vw - 70px);
+    height: auto;
     padding-right: 40px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .provide-section .provide-description-box {
+    padding-top: 84px;
+    padding-right: 44px;
   }
 }
 .provide-section .provide-description-box .provide-subtitle {
@@ -351,6 +368,11 @@ section {
   font-size: 38px;
   line-height: 1.26;
 }
+@media screen and (min-width: 768px) {
+  .provide-section .provide-description-box .provide-title {
+    margin-bottom: 26px;
+  }
+}
 .provide-section .provide-description-box .provide-text {
   margin-bottom: 14px;
   font-weight: 400;
@@ -361,6 +383,11 @@ section {
   .provide-section .provide-description-box .provide-text {
     margin-bottom: 20px;
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .provide-section .provide-description-box .provide-text {
+    margin-bottom: 17px;
   }
 }
 .provide-section .provide-button {

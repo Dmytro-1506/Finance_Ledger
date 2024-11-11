@@ -68,6 +68,13 @@ section {
     padding-top: 10px;
   }
 }
+@media screen and (min-width: 1360px) {
+  .header .header-box {
+    padding-top: 11px;
+    padding-left: 50px;
+    padding-right: 46px;
+  }
+}
 .header .company-name {
   display: flex;
   margin-top: 21px;
@@ -120,8 +127,13 @@ section {
   .header .navigation-box .nav-list {
     max-width: 350px;
     justify-content: baseline;
-    flex-wrap: wrap;
     gap: 18px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .header .navigation-box .nav-list {
+    max-width: 450px;
+    gap: 38px;
   }
 }
 .header .navigation-box .nav-list .nav-link {
@@ -159,12 +171,12 @@ section {
     background-image: url("../images/Hero-tablet-x2.jpg");
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1360px) {
   .hero {
     background-image: url("../images/Hero-desktop-x1.jpg");
   }
 }
-@media screen and (min-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 1199px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1360px) and (min-device-pixel-ratio: 2), screen and (min-width: 1360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1360px) and (min-resolution: 192dpi), screen and (min-width: 1360px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url("../images/Hero-desktop-x2.jpg");
   }
@@ -193,6 +205,7 @@ section {
 }
 @media screen and (min-width: 768px) {
   .hero .hero-content-box .hero-title {
+    margin-bottom: 25px;
     font-size: 55px;
   }
 }
@@ -201,6 +214,11 @@ section {
   font-weight: 400;
   font-size: 22px;
   line-height: 1.67;
+}
+@media screen and (min-width: 768px) {
+  .hero .hero-content-box {
+    margin-bottom: 39px;
+  }
 }
 .hero .hero-content-box .hero-button {
   width: 156px;

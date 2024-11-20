@@ -769,11 +769,21 @@ section {
     width: calc(50vw - 60px);
   }
 }
+@media screen and (min-width: 1360px) {
+  .callrequest-section .callrequest-form {
+    padding-top: 78px;
+  }
+}
 .callrequest-section .callrequest-form .callrequest-title {
   margin-bottom: 34px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+}
+@media screen and (min-width: 768px) {
+  .callrequest-section .callrequest-form .callrequest-title {
+    margin-bottom: 34px;
+  }
 }
 .callrequest-section .callrequest-form .request-input-box {
   margin-bottom: 53px;

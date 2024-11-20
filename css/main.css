@@ -617,57 +617,57 @@ section {
     padding-top: 49px;
   }
 }
-.persons-section .persons-description-box {
+.persons-section .persons-section-description {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 37px;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .persons-section .persons-description-box {
+  .persons-section .persons-section-description {
     margin-bottom: 49px;
   }
 }
 @media screen and (min-width: 1360px) {
-  .persons-section .persons-description-box {
+  .persons-section .persons-section-description {
     margin-bottom: 45px;
   }
 }
-.persons-section .persons-description-box .persons-subtitle {
+.persons-section .persons-section-description .persons-subtitle {
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66;
 }
 @media screen and (min-width: 768px) {
-  .persons-section .persons-description-box .persons-subtitle {
+  .persons-section .persons-section-description .persons-subtitle {
     margin-bottom: 16px;
     font-size: 20px;
   }
 }
-.persons-section .persons-description-box .persons-title {
+.persons-section .persons-section-description .persons-title {
   margin-bottom: 35px;
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
 @media screen and (min-width: 768px) {
-  .persons-section .persons-description-box .persons-title {
+  .persons-section .persons-section-description .persons-title {
     margin-bottom: 34px;
   }
 }
-.persons-section .persons-description-box .persons-description-text {
+.persons-section .persons-section-description .persons-description-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
 @media screen and (min-width: 768px) {
-  .persons-section .persons-description-box .persons-description-text {
+  .persons-section .persons-section-description .persons-description-text {
     font-size: 17px;
   }
 }
 @media screen and (min-width: 1360px) {
-  .persons-section .persons-description-box .persons-description-text {
+  .persons-section .persons-section-description .persons-description-text {
     font-size: 18px;
   }
 }
@@ -701,11 +701,6 @@ section {
     width: calc((100% - 40px) / 3);
   }
 }
-@media screen and (min-width: 1360px) {
-  .persons-section .persons-list .person-item .person-picture:hover, .persons-section .persons-list .person-item .person-picture:focus {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-}
 .persons-section .persons-list .person-item .person-image {
   width: 100%;
 }
@@ -737,6 +732,39 @@ section {
   .persons-section .persons-list .person-item .person-position {
     font-size: 18px;
   }
+}
+.persons-section .person-link {
+  display: inline-block;
+  box-shadow: none;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.persons-section .person-link:hover, .persons-section .person-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.persons-section .person-link:hover .person-icons-box, .persons-section .person-link:focus .person-icons-box {
+  transform: translateY(-100%);
+}
+.persons-section .person-link .person-content-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.persons-section .person-link .person-icons-box {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: translateY(0%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.persons-section .person-link .person-icon-list {
+  display: flex;
+  gap: 25px;
+  margin: 0 auto;
+  width: 216px;
+  height: 35px;
+}
+.persons-section .person-link .person-icon-list .person-icon-item {
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -837,7 +865,6 @@ section {
 }
 .footer .fotter-icon-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 25px;
   margin: 0 auto;
   width: 216px;

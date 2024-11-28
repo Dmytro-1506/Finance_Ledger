@@ -7,6 +7,7 @@
     }
     @media screen and (min-width: 1360px) {
         padding-top: 49px;
+        padding-bottom: 42px;
     }
     .persons-section-description {
         padding-left: 50px;
@@ -73,14 +74,6 @@
             @media screen and (min-width: 768px) {
                 width: calc((100% - 20px * 2) / 3);
             }
-            .person-picture {
-            @media screen and (min-width: 1360px){
-                &:hover,
-                &:focus {
-                    background-color: rgba(0, 0, 0, 0.6);;
-                }
-            }
-            }
             .person-image {
                 width: 100%;
             }
@@ -109,7 +102,7 @@
             }
         }
     }
-    .person-link {
+    .person-item {
         display: inline-block;
         box-shadow: none;
         transition-property: box-shadow;
@@ -133,14 +126,18 @@
         
         .person-icons-box {
             position: absolute;
-            z-index: 99;
-            background-color: #000;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.6);
             transform: translateY(0%);
             transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         .person-icon-list {
-            position: absolute;
             display: flex;
+            justify-content: center;
+            align-items: center;
             gap: 25px;
             margin: 0 auto;
             width: 216px;
@@ -148,6 +145,9 @@
             .person-icon-item {
                 display: flex;
             }
+        }
+        .person-details {
+            padding-bottom: 8px;
         }
     }
 }

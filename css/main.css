@@ -818,16 +818,16 @@ section {
   font-size: 38px;
   line-height: 1.26;
 }
-@media screen and (min-width: 768px) {
-  .callrequest-section .callrequest-form .callrequest-title {
-    margin-bottom: 34px;
-  }
-}
 .callrequest-section .callrequest-form .request-input-box {
   margin-bottom: 53px;
   display: flex;
   flex-direction: column;
   gap: 36px;
+}
+@media screen and (min-width: 1360px) {
+  .callrequest-section .callrequest-form .request-input-box {
+    margin-bottom: 60px;
+  }
 }
 .callrequest-section .callrequest-form .request-input-box .callrequest-input {
   border: none;

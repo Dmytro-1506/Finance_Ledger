@@ -30,15 +30,15 @@
             font-weight: 300;
             font-size: 38px;
             line-height: 1.26;
-            @media screen and (min-width: 768px) {
-                margin-bottom: 34px;
-            }
         }
         .request-input-box{
             margin-bottom: 53px;
             display: flex;
             flex-direction: column;
             gap: 36px;
+            @media screen and (min-width: 1360px) {
+                margin-bottom: 60px;
+            }
             .callrequest-input {
                 border: none;
                 background-color: #fff;
